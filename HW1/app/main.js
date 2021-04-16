@@ -53,8 +53,8 @@ button2.onclick = function(){
     if (A1<=100 && A2<=100 && A3<=100 && B1<=100 && B2<=100 && B3<=100) {
         let arrA = [A1 , A2 , A3];
         let arrB = [B1 , B2 , B3];
-        arrA.sort((a, b) => a < b ? 1 : -1);
-        arrB.sort((a, b) => a < b ? 1 : -1); 
+        arrA.sort();
+        arrB.sort(); 
         resultt2 = arrA[0] * arrB[0] + arrA[1] * arrB[1] + arrA[2] * arrB[2];
         document.getElementById("result2").innerHTML = "Максимально возможная прибыль - "+ resultt2 +" грн";
     } 
@@ -93,3 +93,5 @@ button3.onclick = function(){
         document.getElementById("result3").innerHTML = "Номер билета должен состоять из 6 цифр!";
     }
 }
+
+// Task 3 end
