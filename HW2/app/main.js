@@ -3,7 +3,7 @@ let notarrT1;
 let result1;
 
 let inputT1 = document.querySelector('.inputT1') // input T1
-let buttonS = document.querySelector('.buttonT1') // buttonT2
+let buttonS = document.querySelector('.buttonT1') // buttonT1
 
 buttonS.onclick = function(){
     notarrT1 = inputT1.value;
@@ -92,3 +92,4 @@ function ShortestWord (string) {
     res = ArrOfL[0];
     return res;
 }
+// Task 3 end
