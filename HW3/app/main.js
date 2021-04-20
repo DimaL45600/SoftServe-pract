@@ -55,7 +55,7 @@ function winCheck(field){
         } 
     }
     for (let i = 0; i < 9; i++){
-        if(field[i] != 'X' || field[i] != 'O') w = -1;
+        if(field[i] != 'X' && field[i] != 'O') {w = -1;}
     }
     return w;
 }
