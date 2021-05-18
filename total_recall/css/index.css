@@ -1,0 +1,29 @@
+.price{
+width: 250px;
+height: auto;
+}
+.btn_add_to_form{
+    width: 240px;
+    margin: auto;
+}
+.submit{
+    margin-left: 20px;
+}
+.btn_add_to_cart{
+    width: 250px;
+    height: auto;
+}
+.card{
+    width: 300px;
+    height: 500px;
+}
+.card-image{
+    height: 250px;
+}
+.title{
+    height: 85px;
+}
+.btn-primary{
+    width: 250px;
+    height: auto;
+}

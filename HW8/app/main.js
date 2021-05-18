@@ -6,6 +6,7 @@ getIt.onclick = function (){
         document.getElementById('result').innerHTML = str1;
     })
     .catch(function () {
+        document.getElementById('result').innerHTML = "error";
     });
 }
 const APIKey = '04bf1c9f1a94fad49f6d32a21fbe46bd';

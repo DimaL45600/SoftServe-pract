@@ -60,7 +60,7 @@ function findMaxProd (num){
     let arr = [num,0];
     let iter = num;
     while (iter != 1) {
-            console.log("opachi");
+            //console.log("opachi");
             arr.splice(1)
             arr[0]--;
             iter = arr[0];

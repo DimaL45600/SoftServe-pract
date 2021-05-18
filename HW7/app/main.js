@@ -29,8 +29,8 @@ class PaginationHelper {
     }
 }
 var helper = new PaginationHelper(['a','b','c','d','e','f'], 4);
-/*
-console.log(helper.pageCount());
+
+/*console.log(helper.pageCount());
 console.log(helper.itemCount());
 console.log(helper.pageItemCount(0));
 console.log(helper.pageItemCount(1));
